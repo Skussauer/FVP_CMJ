@@ -1,4 +1,5 @@
-python -m pip install -r requirements.txt
+import sys
+sys.path.append("some_path")
 import pandas as pd 
 import statistics
 import math
