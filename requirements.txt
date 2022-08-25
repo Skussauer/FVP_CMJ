@@ -1,0 +1,10 @@
+streamlit
+pandas
+matplotlib
+nptdms
+scipy
+glob
+os
+pathlib
+statistics
+math
