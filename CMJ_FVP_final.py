@@ -3,6 +3,7 @@ import pandas as pd
 import statistics
 import math
 import numpy as np
+import TdmsFile
 from nptdms import TdmsFile
 from scipy import integrate
 from scipy import signal
