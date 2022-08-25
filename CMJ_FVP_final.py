@@ -1,6 +1,4 @@
 import pandas as pd 
-pip install matplotlib
-import matplotlib.pyplot as plt
 import statistics
 import math
 import streamlit as st 
@@ -11,6 +9,7 @@ from scipy import signal
 from glob import glob 
 import os
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 st.title("Force Velocity Profiling - CMJ")
 
