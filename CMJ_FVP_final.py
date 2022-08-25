@@ -75,7 +75,7 @@ def weight_vars():
 
 # This is how files of a certain type are detected 
 
-object = scandir(folder_path) #<< folder is scanned for files 
+object = os.scandir(folder_path) #<< folder is scanned for files 
 for files in object: # << for the files in the folder...
     if files.path.endswith('.tdms'): # if the file = .tdms, create a dataframe based on FP selection, then determine what weight that set of jumps was performed at 
         # For windows, this must have a '\\' added to it. 
