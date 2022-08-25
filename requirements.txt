@@ -6,3 +6,4 @@ scipy
 pathlib
 statistics
 scandir
+os
