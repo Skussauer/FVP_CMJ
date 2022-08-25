@@ -3,7 +3,6 @@ pandas
 matplotlib
 nptdms
 scipy
-os
 pathlib
 statistics
 math
