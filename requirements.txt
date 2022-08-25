@@ -1,3 +1,0 @@
-pip install matplotlib
-pip install streamlit
-pip install nptdms
