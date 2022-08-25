@@ -1,4 +1,5 @@
 import pandas as pd 
+pip install matplotlib
 import matplotlib.pyplot as plt
 import statistics
 import math
