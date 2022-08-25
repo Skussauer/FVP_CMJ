@@ -1,3 +1,4 @@
+python -m pip install -r requirements.txt
 import pandas as pd 
 import statistics
 import math
