@@ -7,7 +7,7 @@ from nptdms import TdmsFile
 from scipy import integrate
 from scipy import signal
 from glob import glob 
-from scandir import os
+from os import scandir
 from pathlib import Path
 import matplotlib.pyplot as plt
 
