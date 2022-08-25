@@ -1,3 +1,3 @@
-py -m pip install matplotlib
-py -m pip install streamlit
-py -m pip install nptdms
+py pip install matplotlib
+py pip install streamlit
+py pip install nptdms
