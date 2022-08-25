@@ -1,9 +1,7 @@
-import sys
-sys.path.append("some_path")
+import streamlit as st 
 import pandas as pd 
 import statistics
 import math
-import streamlit as st 
 import numpy as np
 from nptdms import TdmsFile
 from scipy import integrate
