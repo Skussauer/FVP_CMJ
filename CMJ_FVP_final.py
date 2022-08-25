@@ -10,6 +10,7 @@ from glob import glob
 import scandir
 from pathlib import Path
 import matplotlib.pyplot as plt
+import os
 
 st.title("Force Velocity Profiling - CMJ")
 
