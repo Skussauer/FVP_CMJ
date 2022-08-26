@@ -7,10 +7,9 @@ from nptdms import TdmsFile
 from scipy import integrate
 from scipy import signal
 from glob import glob 
-import scandir
 from pathlib import Path
 import matplotlib.pyplot as plt
-from os import scandir
+import scandir
 
 st.title("Force Velocity Profiling - CMJ")
 
@@ -76,7 +75,7 @@ def weight_vars():
 
 # This is how files of a certain type are detected 
 
-object = os.scandir(folder_path) #<< folder is scanned for files 
+object = scandir.scandir(folder_path) #<< folder is scanned for files 
 for files in object: # << for the files in the folder...
     if files.path.endswith('.tdms'): # if the file = .tdms, create a dataframe based on FP selection, then determine what weight that set of jumps was performed at 
         # For windows, this must have a '\\' added to it. 
